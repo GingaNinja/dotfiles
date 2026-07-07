@@ -1,6 +1,7 @@
 #!/bin/bash
 
-brew install stow tmux tmuxpack/tpack/tpack figlet
+brew install stow tmux tmuxpack/tpack/tpack figlet git
 
 stow --adopt zsh
 stow tmux
+stow git

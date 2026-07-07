@@ -1,0 +1,26 @@
+# This is Git's per-user configuration file.
+[core]
+	editor = /usr/bin/vim
+[user]
+# Pleasse adapt and uncomment the following lines:
+   name = Dave Arkell
+	email = dave@arkells.net
+
+#[url "git@github.com:"]
+#   insteadOf = https://github.com/
+[url "ssh://git@bitbucket.org/"]
+   insteadOf = https://bitbucket.org/
+[alias]
+   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+   rbi = "!f() { git rebase -i $(git log --pretty=oneline --color=always | fzf --ansi | cut -d ' ' -f1)^ ; }; f"
+   sw = !git checkout $(git branch -a --format '%(refname:short)' | sed 's~origin/~~' | sort | uniq | fzf)
+   # Difftastic aliases, so `git dlog -p` is `git log -p`
+   # with difftastic and likewise for the other subcommands.
+   dlog = -c diff.external=difft log --ext-diff
+   dshow = -c diff.external=difft show --ext-diff
+   ddiff = -c diff.external=difft diff
+[pull]
+   rebase = true
+
+[init]
+	defaultBranch = main
