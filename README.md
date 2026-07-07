@@ -7,4 +7,5 @@ Using [Gnu Stow](https://www.gnu.org/software/stow/_) for handling the dotfiles.
 (in the home directory)
 `git clone git@github.com:GingaNinja/dotfiles.git .dotfiles`
 
-and then for each 
+and then run install from inside the .dotfiles folder:
+`cd .dotfiles && ./install`
