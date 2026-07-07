@@ -1,0 +1,6 @@
+alias ll='eza -lh --git --color=always'
+alias kdr='kubectl -o yaml --dry-run=client'
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+
+alias wifi_password="pngpaste - | qrtool decode -t png | cut -d';' -f3 | cut -c3-"
+
