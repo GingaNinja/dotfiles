@@ -37,8 +37,7 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
     
-  complete -C '/opt/hombrew/bin/aws_completer' aws
-  source <(jj util completion zsh)
+  #complete -C '/opt/hombrew/bin/aws_completer' aws
 fi
 
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
