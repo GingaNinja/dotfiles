@@ -1,6 +1,7 @@
 #!/bin/bash
 
-brew install stow tmux tmuxpack/tpack/tpack figlet git romkatv/powerlevel10k/powerlevel10k   
+brew install stow tmux tmuxpack/tpack/tpack figlet git romkatv/powerlevel10k/powerlevel10k eza
+brew install --cask font-hack-nerd-font
 
 stow --adopt zsh
 stow tmux
