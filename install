@@ -1,3 +1,6 @@
 #!/bin/bash
 
-stow zsh
+brew install stow tmux tmuxpack/tpack/tpack
+
+stow --adopt zsh
+stow tmux
