@@ -6,3 +6,4 @@ brew install --cask font-hack-nerd-font font-meslo-lg-nerd-font
 stow --adopt zsh
 stow tmux
 stow git
+stow bat
