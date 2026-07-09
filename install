@@ -14,3 +14,4 @@ stow helix
 stow clj
 stow tools
 stow -t ~/Libary/Application\ Support/Code/User vscode
+stow dotvscode
