@@ -1,0 +1,113 @@
+{
+  "git.enableSmartCommit": true,
+  "redhat.telemetry.enabled": true,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    },
+    "tmux": {
+      "path": "zsh",
+      "args": [
+        "-c",
+        "tmux new -As 'vscode:${workspaceFolder}'"
+      ]
+    },
+    "fish": {
+      "path": "fish",
+      "args": [
+        "-l"
+      ]
+    },
+  },
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.toggleSidebarVisibility"
+  ],
+  "terminal.integrated.defaultProfile.osx": "tmux",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.autofetch": true,
+  "go.toolsManagement.autoUpdate": true,
+  "window.zoomLevel": 1,
+  "plantuml.server": "http://localhost:8080",
+  "plantuml.render": "PlantUMLServer",
+  "eslint.validate": [
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "makefile.configureOnOpen": true,
+  "zig.path": "zig",
+  "zig.zls.path": "/Users/dave/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+  "zig.initialSetupDone": true,
+  "docker.extension.enableComposeLanguageServer": false,
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "claudeCode.preferredLocation": "panel",
+  "aws.cloudformation.telemetry.enabled": false,
+  "chat.disableAIFeatures": true,
+  "mermaid.vscode.dark_theme": "neo-dark",
+  "workbench.colorTheme": "Monokai Dimmed",
+  "editor.formatOnPaste": true,
+  "yaml.schemas": {
+    "file:///Users/dave/.vscode/extensions/continue.continue-1.2.16-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///Users/dave/.vscode/extensions/continue.continue-1.2.17-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///Users/dave/.vscode/extensions/continue.continue-1.2.19-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///Users/dave/.vscode/extensions/continue.continue-1.2.22-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///Users/dave/.vscode/extensions/continue.continue-2.0.0-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "claudeCode.selectedModel": "claude-sonnet-4-6"
+}
