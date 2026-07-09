@@ -29,7 +29,7 @@
       "path": "zsh",
       "args": [
         "-c",
-        "tmux new -As 'vscode:${workspaceFolder}'"
+        "tmux new -ADs vscode:${PWD##*/}"
       ]
     },
     "fish": {
