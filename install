@@ -1,6 +1,8 @@
 #!/bin/bash
 
-brew install stow tmux tmuxpack/tpack/tpack figlet git romkatv/powerlevel10k/powerlevel10k eza perl bat helix fzf
+brew install --cask temurin@25
+brew trust clojure/tools
+brew install stow tmux tmuxpack/tpack/tpack figlet git romkatv/powerlevel10k/powerlevel10k eza perl bat helix fzf clojure/tools/clojure borkdude/brew/babashka
 brew install --cask font-hack-nerd-font font-meslo-lg-nerd-font
 
 stow --adopt zsh
@@ -8,3 +10,4 @@ stow tmux
 stow git
 stow bat
 stow helix
+stow clj
