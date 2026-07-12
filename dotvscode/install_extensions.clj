@@ -16,7 +16,6 @@
     ;; (println (first uninstalled_extensions))
     ;; (println "found" (count uninstalled_extensions) "extensions.")
     )
-  (println (sort uninstalled_extensions))
   (dorun (for [ext (sort uninstalled_extensions)]
            (do (println "Installing " ext "...")
                (shell "code" "--install-extension" ext)))))
