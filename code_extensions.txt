@@ -6,3 +6,4 @@ editorconfig.editorconfig
 golang.go
 hashicorp.terraform
 redhat.vscode-yaml
+rust-lang.rust-analyzer
