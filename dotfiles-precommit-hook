@@ -1,7 +1,9 @@
 #!/bin/bash
 
-dotfiles_dir="$HOME"/dotfiles
+dotfiles_dir="$HOME"/.dotfiles
 if [ "$PWD" = "$dotfiles_dir" ]; then
     ./dotvscode/save_code_extensions
-    git add code_extensions
+    git add code_extensions.txt
+else 
+    echo "not in the right dir"
 fi
