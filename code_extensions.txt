@@ -2,8 +2,7 @@
 betterthantomorrow.calva
 betterthantomorrow.calva-spritz
 dbaeumer.vscode-eslint
-golang.go
-rust-lang.rust-analyzer
-redhat.vscode-yaml
-hashicorp.terraform
 editorconfig.editorconfig
+golang.go
+hashicorp.terraform
+redhat.vscode-yaml
