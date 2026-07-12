@@ -20,3 +20,4 @@ stow gnupg
 gpgconf --kill gpg-agent .       
 
 ./dotvscode/install_extensions.clj
+cp dotfiles-precommit-hook .git/hooks/pre-commit
