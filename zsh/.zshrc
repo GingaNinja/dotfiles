@@ -26,7 +26,7 @@ export PATH="/Users/dave/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-if [ "$TMUX" = "" ]; then exec tmux; fi
+# if [ "$TMUX" = "" ]; then exec tmux; fi
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
