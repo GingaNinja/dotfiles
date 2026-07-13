@@ -21,6 +21,9 @@ stow -t ~/Library/Application\ Support/Code/User vscode
 stow vim
 stow gnupg
 
+defaults write org.gpgtools.pinentry-mac UseKeychain -bool NO
+defaults write org.gpgtools.pinentry-mac DisableKeychain -bool YES
+
 gpgconf --kill gpg-agent .       
 
 ./dotvscode/install_extensions.clj
