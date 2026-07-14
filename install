@@ -7,6 +7,7 @@ brew trust --formula romkatv/powerlevel10k/powerlevel10k
 brew install stow tmux tmuxpack/tpack/tpack figlet git romkatv/powerlevel10k/powerlevel10k eza perl bat helix fzf clojure/tools/clojure borkdude/brew/babashka chordii ghostscript pinentry-mac pass gitui nvim wget coreutils gnu-sed browserpass
 brew install --cask font-hack-nerd-font font-meslo-lg-nerd-font
 brew install --cask visual-studio-code
+brew install --cask synology-drive
 
 PREFIX='/opt/homebrew/opt/browserpass' make hosts-chrome-user -f '/opt/homebrew/opt/browserpass/lib/browserpass/Makefile'
 
