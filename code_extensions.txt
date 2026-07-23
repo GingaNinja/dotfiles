@@ -5,5 +5,7 @@ dbaeumer.vscode-eslint
 editorconfig.editorconfig
 golang.go
 hashicorp.terraform
+ms-azuretools.vscode-containers
+ms-vscode.makefile-tools
 redhat.vscode-yaml
 rust-lang.rust-analyzer
