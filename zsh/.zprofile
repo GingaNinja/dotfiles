@@ -87,6 +87,7 @@ path=(
   $path
   $HOME/.local/bin
   /opt/homebrew/Cellar/perl/5.38.2_1/bin
+  /opt/homebrew/lib/ruby/gems/4.0.0/bin
 )
 
 #
