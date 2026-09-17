@@ -26,12 +26,10 @@
       ]
     },
     "tmux": {
-      "path": "tmux",
+      "path": "zsh",
       "args": [
-        "new-session",
-        "-A",
-        "-s",
-        "vscode:${workspaceFolder}"
+        "-c",
+        "tmux new -ADs vs${PWD##*/}",
       ]
     },
     "fish": {

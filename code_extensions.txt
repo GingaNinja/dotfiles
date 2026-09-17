@@ -7,5 +7,7 @@ golang.go
 hashicorp.terraform
 ms-azuretools.vscode-containers
 ms-vscode.makefile-tools
+ms-vsliveshare.vsliveshare
+odiriuss.rust-macro-expand
 redhat.vscode-yaml
 rust-lang.rust-analyzer

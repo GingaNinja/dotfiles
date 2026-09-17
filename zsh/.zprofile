@@ -27,11 +27,11 @@ if [[ -o INTERACTIVE && -t 2 ]]; then
   figlet -f roman -w 500 "Dave's Mac"
   
   # Print a random, hopefully interesting, adage.
-  if (( $+commands[fortune] )); then
+#  if (( $+commands[fortune] )); then
     #fortune -s
     ~/random_doc.clj
     print
-  fi
+#  fi
 fi >&2
 
 
