@@ -90,7 +90,7 @@
   "aws.cloudformation.telemetry.enabled": false,
   "chat.disableAIFeatures": true,
   "mermaid.vscode.dark_theme": "neo-dark",
-  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.colorTheme": "Monokai",
   "editor.formatOnPaste": true,
   "yaml.schemas": {
     "file:///Users/dave/.vscode/extensions/continue.continue-1.2.16-darwin-arm64/config-yaml-schema.json": [
