@@ -5,9 +5,11 @@ dbaeumer.vscode-eslint
 editorconfig.editorconfig
 golang.go
 hashicorp.terraform
+llvm-vs-code-extensions.lldb-dap
 ms-azuretools.vscode-containers
 ms-vscode.makefile-tools
 ms-vsliveshare.vsliveshare
 odiriuss.rust-macro-expand
 redhat.vscode-yaml
 rust-lang.rust-analyzer
+swiftlang.swift-vscode
